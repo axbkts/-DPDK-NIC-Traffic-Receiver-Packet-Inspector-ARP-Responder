@@ -46,3 +46,8 @@ This command compiles source file into an executable. The Makefile sets the comp
 The application will display detailed information about the Ethernet headers, IP addresses, and UDP packet contents.
 ARP requests are automatically detected and responded to with an appropriate ARP reply.
 
+## Additional Information
+DPDK Documentation: Refer to the official DPDK documentation for in-depth details on API usage and performance tuning.
+Customizations: The source code is structured to allow easy extension. You can add additional packet handling logic or integrate support for other protocols as needed.
+Troubleshooting: Ensure that your NIC is supported by DPDK and that you have the necessary permissions (e.g., root access) to run the application.
+
