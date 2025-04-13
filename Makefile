@@ -1,4 +1,4 @@
-DPDK_DIR ?= /home/ahmet/DPDK/dpdk-stable-23.11.2
+DPDK_DIR ?= /../dpdk-stable-23.11.2 # your dpdk directory
 
 RTE_SDK = $(DPDK_DIR)
 RTE_TARGET = $(shell cat $(RTE_SDK)/build/.config | grep CONFIG_RTE_ARCH | cut -d'=' -f2 | tr -d '"')
