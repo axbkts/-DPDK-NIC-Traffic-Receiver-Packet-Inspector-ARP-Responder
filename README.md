@@ -26,8 +26,9 @@ This high-performance network application is built with the Data Plane Developme
    - $ cd DPDK-NIC-Traffic-Receiver-Packet-Inspector-ARP-Responder
 
 4. Configure the Build:
-   -  Open the Makefile and update the DPDK_DIR variable to point to your local DPDK installation:
+   -  Open the Makefile and update the DPDK_DIR variable to point to your local DPDK installation :
       DPDK_DIR ?= /path/to/your/dpdk
-   -  Ensure that the target configuration is correct by verifying the output of:
+      
+   -  Ensure that the target configuration is correct by verifying the output of :
       cat $(DPDK_DIR)/build/.config | grep CONFIG_RTE_ARCH
 
