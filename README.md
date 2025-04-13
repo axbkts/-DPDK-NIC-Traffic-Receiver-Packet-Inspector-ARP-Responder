@@ -39,4 +39,10 @@ Use the Makefile provided in the repository:
 This command compiles source file into an executable. The Makefile sets the compiler flags and links the necessary DPDK libraries.
 
 ## Running the Application
-1. 
+1. Run the Executable:
+  $ sudo ./udp_tcp_v3 <dpdk EAL arguments>
+  Replace <dpdk EAL arguments> with the necessary EAL parameters (such as core and memory channels) based on your system and network configuration.
+2. Monitor Output:
+The application will display detailed information about the Ethernet headers, IP addresses, and UDP packet contents.
+ARP requests are automatically detected and responded to with an appropriate ARP reply.
+
