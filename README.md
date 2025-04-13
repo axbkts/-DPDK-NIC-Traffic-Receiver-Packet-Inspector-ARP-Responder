@@ -22,10 +22,11 @@ This high-performance network application is built with the Data Plane Developme
    - Ensure that the DPDK environment is set up correctly and that you have built the DPDK libraries.
 
 2. **Clone the Repository:**
+3. 
    $ git clone https://github.com/axbkts/DPDK-NIC-Traffic-Receiver-Packet-Inspector-ARP-Responder
    $ cd DPDK-NIC-Traffic-Receiver-Packet-Inspector-ARP-Responder
 
-3. Configure the Build:
+4. Configure the Build:
    -  Open the Makefile and update the DPDK_DIR variable to point to your local DPDK installation:
       DPDK_DIR ?= /path/to/your/dpdk
    -  Ensure that the target configuration is correct by verifying the output of:
