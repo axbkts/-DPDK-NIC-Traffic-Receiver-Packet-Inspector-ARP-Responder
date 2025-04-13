@@ -32,3 +32,10 @@ This high-performance network application is built with the Data Plane Developme
    -  Ensure that the target configuration is correct by verifying the output of :
       cat $(DPDK_DIR)/build/.config | grep CONFIG_RTE_ARCH
 
+Building the Project
+
+Use the Makefile provided in the repository:
+
+$ make
+
+This command compiles source file into an executable. The Makefile sets the compiler flags and links the necessary DPDK libraries.
