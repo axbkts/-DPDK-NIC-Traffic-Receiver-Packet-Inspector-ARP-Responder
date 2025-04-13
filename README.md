@@ -16,7 +16,6 @@ This high-performance network application is built with the Data Plane Developme
 - **Make:** For building the project via the provided Makefile.
 
 ## Installation & Setup
-
 1. **Install DPDK:**
    - Follow the official DPDK installation guide for your OS.
    - Ensure that the DPDK environment is set up correctly and that you have built the DPDK libraries.
@@ -33,7 +32,6 @@ This high-performance network application is built with the Data Plane Developme
       cat $(DPDK_DIR)/build/.config | grep CONFIG_RTE_ARCH
 
 ## Building the Project
-
 Use the Makefile provided in the repository:
 
  - $ make
@@ -41,4 +39,4 @@ Use the Makefile provided in the repository:
 This command compiles source file into an executable. The Makefile sets the compiler flags and links the necessary DPDK libraries.
 
 ## Running the Application
-
+1. 
